@@ -79,7 +79,7 @@ cd backend
 npm install
 
 
-Create a `.env` file inside backend folder and add:
+Create a .env file inside backend folder and add:
 
 MONGO_URI=your_mongodb_connection_string
 
@@ -127,5 +127,8 @@ http://localhost:3000
 3. User can search employees
 4. User can add or edit employee data
 5. Data is stored in MongoDB database
+
+---
+
 
 ---
