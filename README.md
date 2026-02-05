@@ -36,22 +36,14 @@ The Employee Directory Application is a full-stack web application designed to m
 ## 📁 Project Structure
 
 employee-directory
-
 │
 ├── backend
-
 │ ├── config # Database configuration
-
 │ ├── controllers # Business logic
-
 │ ├── models # Database schemas
-
 │ ├── routes # API routes
-
 │ ├── server.js # Entry point for backend
-
 │ └── package.json
-
 │
 ├── frontend
 │ ├── public
