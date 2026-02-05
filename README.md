@@ -65,7 +65,7 @@ employee-directory
 ## ⚙️ Installation and Setup
 
 ### Step 1: Clone Repository
-git clone <your-github-repository-link>
+git clone <https://github.com/Sanskarrrrr30/employee-directory>
 cd employee-directory
 
 
