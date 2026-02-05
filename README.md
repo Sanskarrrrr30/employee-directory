@@ -1,6 +1,7 @@
 # Employee Directory Application
 
 ## 📖 Project Overview
+
 The Employee Directory Application is a full-stack web application designed to manage employee records efficiently. The application allows users to view, search, add, and edit employee details through a responsive and user-friendly interface.
 
 ---
@@ -20,55 +21,60 @@ The Employee Directory Application is a full-stack web application designed to m
 ## 🛠 Tech Stack
 
 ### Frontend
+
 - React.js
 - Tailwind CSS
 - Axios
 
 ### Backend
+
 - Node.js
 - Express.js
 
 ### Database
+
 - MongoDB (Mongoose)
 
 ---
 
 ## 📁 Project Structure
 
+```
 employee-directory
 │
 ├── backend
-│ ├── config # Database configuration
-│ ├── controllers # Business logic
-│ ├── models # Database schemas
-│ ├── routes # API routes
-│ ├── server.js # Entry point for backend
-│ └── package.json
+│   ├── config         # Database configuration
+│   ├── controllers    # Business logic
+│   ├── models         # Database schemas
+│   ├── routes         # API routes
+│   ├── server.js      # Entry point for backend
+│   └── package.json
 │
 ├── frontend
-│ ├── public
-│ ├── src
-│ │ ├── components # Reusable UI components
-│ │ ├── pages # Page-level views
-│ │ ├── services # API calls and data handling
-│ │ ├── utils # Helper functions
-│ │ ├── assets # Styles or static resources
-│ │ ├── App.js
-│ │ └── index.js
-│ └── package.json
+│   ├── public
+│   ├── src
+│   │   ├── components # Reusable UI components
+│   │   ├── pages      # Page-level views
+│   │   ├── services   # API calls and data handling
+│   │   ├── utils      # Helper functions
+│   │   ├── assets     # Styles or static resources
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
 │
 └── README.md
-
+```
 
 ---
 
 ## ⚙️ Installation and Setup
 
 ### Step 1: Clone Repository
-git clone <https://github.com/Sanskarrrrr30/employee-directory>
 
+```bash
+git clone https://github.com/Sanskarrrrr30/employee-directory
 cd employee-directory
-
+```
 
 ---
 
@@ -76,23 +82,25 @@ cd employee-directory
 
 Navigate to backend folder:
 
+```bash
 cd backend
 npm install
+```
 
+Create a `.env` file inside backend folder and add:
 
-Create a .env file inside backend folder and add:
-
+```env
 MONGO_URI=your_mongodb_connection_string
-
+```
 
 Start backend server:
 
+```bash
 npm start
-
+```
 
 Backend runs on:
 http://localhost:5000
-
 
 ---
 
@@ -100,24 +108,24 @@ http://localhost:5000
 
 Open new terminal and navigate to frontend folder:
 
+```bash
 cd frontend
 npm install
 npm start
-
+```
 
 Frontend runs on:
 http://localhost:3000
-
 
 ---
 
 ## 🔍 API Endpoints
 
-| Method | Endpoint | Description |
-|----------|-------------|----------------|
-| GET | /api/employees | Fetch all employees |
-| POST | /api/employees | Add new employee |
-| PUT | /api/employees/:id | Update employee |
+| Method | Endpoint           | Description         |
+| ------ | ------------------ | ------------------- |
+| GET    | /api/employees     | Fetch all employees |
+| POST   | /api/employees     | Add new employee    |
+| PUT    | /api/employees/:id | Update employee     |
 
 ---
 
@@ -128,8 +136,5 @@ http://localhost:3000
 3. User can search employees
 4. User can add or edit employee data
 5. Data is stored in MongoDB database
-
----
-
 
 ---
