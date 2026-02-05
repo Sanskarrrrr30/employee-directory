@@ -66,6 +66,7 @@ employee-directory
 
 ### Step 1: Clone Repository
 git clone <https://github.com/Sanskarrrrr30/employee-directory>
+
 cd employee-directory
 
 
